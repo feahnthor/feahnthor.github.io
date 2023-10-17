@@ -3,7 +3,7 @@ email: test@gmail.com
 description: A collection of projects by Henry F.
 baseurl: ""
 github:
-  url: https://feahnthor.github.io
+  url: https://github.com/martial-god/Benny-Scraper
   zip_url: http://example.com/download.zip
   another_url: another value
 show_downloads: true
