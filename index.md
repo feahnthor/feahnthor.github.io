@@ -9,10 +9,10 @@ Welcome to the official documentation for Benny-Scraper, a web scraper designed 
 
 ## Table of Contents
 
-- [Overview](benny-scraper.md)
-- [Methods](benny-scraper/methods.md)
-- [Classes](benny-scraper/classes.md)
-- [Adding New Sites](benny-scraper/adding-new-sites.md)
+- [Overview](/_docs/benny-scraper.md)
+- [Methods](/_docs/benny-scraper/methods.md)
+- [Classes](/_docs/benny-scraper/classes.md)
+- [Adding New Sites](_docs/benny-scraper/adding-new-sites.md)
 - [Other Projects](#other-projects)
 - [Contribution](#contribution)
 
@@ -25,8 +25,6 @@ Benny-Scraper is a versatile tool built in C# that allows users to store all cha
 For documentation on our other projects, please visit the respective links below:
 
 - [Project Name 1](/-docs/project-name-1/documentation.md)
-- [Project Name 2](/-docs/project-name-2/documentation.md)
-- ... (Add more as needed)
 
 ## Contribution
 
