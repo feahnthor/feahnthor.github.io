@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\docs",
+    "\\docs\\benny-scraper",
     "\\layouts"
   ],
-  "SelectedNode": "\\index.md",
   "PreviewInSolutionExplorer": false
 }

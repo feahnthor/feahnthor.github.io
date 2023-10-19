@@ -9,7 +9,8 @@ Welcome to the official documentation for Benny-Scraper, a web scraper designed 
 
 ## Table of Contents
 
-- [Overview](/docs/Benny-Scraper/benny-scraper)
+- [Overview](/docs/Benny-Scraper/overview)
+- [Features](/docs/Benny-Scraper/features)
 - [Methods](/docs/Benny-Scraper/methods)
 - [Classes](/docs/Benny-Scraper/classes)
 - [Adding New Sites](/docs/Benny-Scraper/adding-new-sites)
