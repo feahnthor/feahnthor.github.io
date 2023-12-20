@@ -17,6 +17,7 @@ In-depth documentation of the classes within Benny-Scraper, ordered by their seq
 The starting point of the application. Manages command-line options, database connections, and service registration.
 
 ### Properties
+
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | **Logger** | `NLog.Logger` | Static logger for the class, used for logging messages throughout the application. |
