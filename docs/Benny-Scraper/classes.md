@@ -36,7 +36,7 @@ The starting point of the application. Manages command-line options, database co
 | **ConfigureServices** | `ContainerBuilder builder` | `void` | Registers dependencies and serializes `NovelScraperSettings` for site scraping. Sets lifetimes of dependencies. |
 
 ## NovelProcessor
-_(Description and details of NovelProcessor)_
+Handles the adding or updating of novels, makes use of appropriate services to store the novels to the database.
 
 ### Properties
 _(Table of properties)_
