@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Chrome/118.0.5993.70/X64
+/.vs/feahnthor.github.io/FileContentIndex
+/.vs/slnx.sqlite
