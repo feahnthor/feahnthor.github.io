@@ -54,15 +54,112 @@
     <main id="content" class="main-content" role="main">
       <h1 id="benny-scraper-classes">Benny-Scraper Classes</h1>
 
-<p>In-depth documentation of the classes within Benny-Scraper.</p>
+<p>In-depth documentation of the classes within Benny-Scraper, ordered by their sequence in the application’s execution.</p>
 
-<h2 id="class-1">Class 1</h2>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ol>
+  <li><a href="#program.cs">Program.cs</a></li>
+  <li><a href="#novelprocessor">NovelProcessor</a></li>
+  <li><a href="#class-2">Class 2</a>
+    <ul>
+      <li>…other classes…</li>
+    </ul>
+  </li>
+</ol>
 
-<p>Description and properties of Class 1…</p>
+<h2 id="programcs">Program.cs</h2>
+<p>The starting point of the application. Manages command-line options, database connections, and service registration.</p>
+
+<h3 id="properties">Properties</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Logger</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">NLog.Logger</code></td>
+      <td>Static logger for the class, used for logging messages throughout the application.</td>
+    </tr>
+    <tr>
+      <td><strong>Container</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">IContainer</code></td>
+      <td>The dependency injection container that manages the lifetime of services used by the application.</td>
+    </tr>
+    <tr>
+      <td><strong>AreYouSure</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td>A constant message prompt used for confirmation dialogs within the application.</td>
+    </tr>
+    <tr>
+      <td><strong>Configuration</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">IConfiguration</code></td>
+      <td>Holds the configuration settings loaded from <code class="language-plaintext highlighter-rouge">appsettings.json</code> or other configuration sources.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="methods">Methods</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Parameters</th>
+      <th>Return Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Main</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">string[] args</code></td>
+      <td><code class="language-plaintext highlighter-rouge">void</code></td>
+      <td>The entry point of the application.</td>
+    </tr>
+    <tr>
+      <td><strong>DeleteOldLogs</strong></td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">void</code></td>
+      <td>Deletes logs older than 5 days. Creates log folder if not present. Logs stored in <code class="language-plaintext highlighter-rouge">/bennyscraper/logs</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>SetupLogger</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">LogLevel logLevel</code></td>
+      <td><code class="language-plaintext highlighter-rouge">void</code></td>
+      <td>Configures log creation and output format. Determines runtime log level (default is <code class="language-plaintext highlighter-rouge">LogLevel.Info</code>).</td>
+    </tr>
+    <tr>
+      <td><strong>BuildConfiguration</strong></td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">IConfigurationRoot</code></td>
+      <td>Loads configuration from <code class="language-plaintext highlighter-rouge">appsettings.json</code> for application services.</td>
+    </tr>
+    <tr>
+      <td><strong>ConfigureServices</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">ContainerBuilder builder</code></td>
+      <td><code class="language-plaintext highlighter-rouge">void</code></td>
+      <td>Registers dependencies and serializes <code class="language-plaintext highlighter-rouge">NovelScraperSettings</code> for site scraping. Sets lifetimes of dependencies.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="novelprocessor">NovelProcessor</h2>
+<p>Handles the adding or updating of novels, makes use of appropriate services to store the novels to the database.</p>
+
+<h3 id="properties-1">Properties</h3>
+<p><em>(Table of properties)</em></p>
+
+<h3 id="methods-1">Methods</h3>
+<p><em>(Table of methods)</em></p>
 
 <h2 id="class-2">Class 2</h2>
-
-<p>Description and properties of Class 2…</p>
+<p><em>(Continue in similar format for each class)</em></p>
 
 <p>… (and so on for each class)</p>
 
