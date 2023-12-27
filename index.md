@@ -13,7 +13,7 @@ Welcome to the official documentation for Benny-Scraper, a web scraper designed 
 - [Features](/docs/benny-scraper/features)
 - [Methods](/docs/Benny-Scraper/methods)
 - [Classes](/docs/Benny-Scraper/classes)
-- [Adding New Sites](/docs/Benny-Scraper/addNewSite)
+- [Adding New Sites](/docs/Benny-Scraper/addnew)
 - [Other Projects](#other-projects)
 - [Contribution](#contribution)
 
